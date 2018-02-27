@@ -1,0 +1,62 @@
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.icon{
+  width: 50%;
+  height: 50%;
+  display: flex;
+  -ms-align-self: center;
+  align-self: center;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.va{
+  position: relative;
+  margin-bottom: 250px;
+}
+
+.pangolin{
+  font-family: 'Pangolin', cursive;
+}
+
+.mono{
+  font-family: 'PT Mono', monospace;
+}
+
+.mono__bold{
+  font-family: 'PT Mono', monospace;
+  font-weight: bold;
+}
+
+.h{
+  height: 80px;
+}
+
+.bg{
+  background-color: black;
+  opacity: 0.8;
+  width: 100%;
+  border-radius: 8px;
+}
+
